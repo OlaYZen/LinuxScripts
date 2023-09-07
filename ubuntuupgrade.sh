@@ -9,7 +9,6 @@ if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     echo -e "${RED}Not running as root${NOCOLOR}"
     exit
 fi
-
 clear
 
 echo -e "\033[1K"
