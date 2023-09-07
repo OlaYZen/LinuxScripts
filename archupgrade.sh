@@ -11,3 +11,4 @@ echo -e "\033[1K"
 yes | sudo pacman -Syyu
 echo -e "\033[1K"
 echo -e "${GREEN}Installation complete${NOCOLOR}"
+echo -e "\033[1K"
