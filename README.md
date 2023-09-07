@@ -12,12 +12,12 @@ bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/
 
 ## Docker with APT:
 ```
-apt-get update -y && apt install curl -y && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
+apt-get update -y && apt install curl -y && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgradeapt.sh) install
 ```
 
 ## Docker with APK:
 ```
-yes | apk update && apk add curl  && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
+yes | apk update && apk add curl  && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgradeapk.sh) install
 ```
 
 
