@@ -1,6 +1,6 @@
 #!/bin/sh
+LIGHTBLUE='\033[1;36m'
 GREEN='\033[0;32m'
-LIGHTBLUE='\033[1;34m'
 NOCOLOR='\033[0m'
 
 echo -e "\033[1K"
