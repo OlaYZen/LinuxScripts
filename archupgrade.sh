@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 NOCOLOR='\033[0m'
 
 echo -e "\033[1K"
-echo -e "${WHITE}Installing upgrades from the official ${LIGHTBLUE}ARCH${WHITE} Repo${NOCOLOR}"
+echo -e "${WHITE}Installing upgrades from the official ${LIGHTBLUE}Arch${WHITE} Repo${NOCOLOR}"
 echo -e "\033[1K"
 yes | sudo pacman -Syyu
 echo -e "\033[1K"
