@@ -1,8 +1,10 @@
 #!/bin/sh
 clear
-WHITE='\033[1;37m'
 ORANGE='\033[0;33m'
+WHITE='\033[1;37m'
+GREEN='\033[1;32m'
 NOCOLOR='\033[0m'
+
 
 echo -e "\033[1K"
 echo -e "${WHITE}Installing upgrades from the official ${ORANGE}Ubuntu${WHITE} Repo${NOCOLOR}"
