@@ -5,11 +5,16 @@
 sudo su
 ```
 
+## Ubuntu:
+```
+bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
+```
 
-## Ubuntu / Docker:
+## Docker:
 ```
 apt install curl -y && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
 ```
+
 
 ## Arch:
 
