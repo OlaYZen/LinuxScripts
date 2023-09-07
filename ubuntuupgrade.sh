@@ -1,1 +1,2 @@
-sudo apt-get update && sudo apt upgrade -y
+#!/bin/sh
+apt-get update && apt upgrade -y && apt install nano -y
