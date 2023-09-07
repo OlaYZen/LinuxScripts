@@ -2,7 +2,7 @@
 clear
 LIGHTBLUE='\033[1;36m'
 WHITE='\033[1;37m'
-GREEN='\033[0;32m'
+GREEN='\033[1;32m'
 NOCOLOR='\033[0m'
 
 echo -e "\033[1K"
