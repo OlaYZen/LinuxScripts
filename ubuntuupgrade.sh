@@ -5,15 +5,11 @@ GREEN='\033[1;32m'
 RED='\033[0;31m'
 NOCOLOR='\033[0m'
 
-echo -e "\033[1K"
-echo -e "${WHITE}Sudo is required for the installation${NOCOLOR}"
-sudo -v
-if [ $? -eq 0 ]; then
+if [[ $(/usr/bin/id -u) -ne 0 ]]; then
+    echo -e "${RED}Not running as root"
     exit
-else
-    echo -e "${RED}Incorrect password${NOCOLOR}"
 fi
-echo -e "\033[1K"
+
 clear
 
 echo -e "\033[1K"
