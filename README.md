@@ -8,7 +8,7 @@ sudo su
 
 ## Ubuntu / Docker:
 ```
-bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
+sudo apt install curl && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
 ```
 
 ## Arch:
