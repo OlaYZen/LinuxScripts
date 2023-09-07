@@ -1,5 +1,5 @@
 #!/bin/sh
-ORANGE='\033[0;33m'
+BLUE='\033[0;34m'
 WHITE='\033[1;37m'
 GREEN='\033[1;32m'
 RED='\033[0;31m'
@@ -12,7 +12,7 @@ fi
 clear
 
 echo -e "\033[1K"
-echo -e "${WHITE}Installing upgrades from the official ${ORANGE}Ubuntu${WHITE} Repo${NOCOLOR}"
+echo -e "${WHITE}Installing upgrades from the official ${BLUE}Alpine${WHITE} Repo${NOCOLOR}"
 echo -e "\033[1K"
 yes | apk update && apk add --upgrade apk-tools && apk upgrade --available && apk add nano
 echo -e "\033[1K"
