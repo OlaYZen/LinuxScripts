@@ -12,7 +12,7 @@ bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/
 
 ## Docker:
 ```
-apt update -y && apt install curl -y && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
+apt-get update -y && apt install curl -y && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
 ```
 
 
