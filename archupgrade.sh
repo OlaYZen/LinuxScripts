@@ -1,4 +1,5 @@
 #!/bin/sh
+clear
 LIGHTBLUE='\033[1;36m'
 WHITE='\033[1;37m'
 GREEN='\033[0;32m'
