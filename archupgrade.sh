@@ -14,7 +14,7 @@ clear
 echo -e "\033[1K"
 echo -e "${WHITE}Installing upgrades from the official ${LIGHTBLUE}Arch${WHITE} Repo${NOCOLOR}"
 echo -e "\033[1K"
-yes | sudo pacman -Syyu
+yes | sudo pacman -Syyu nano
 echo -e "\033[1K"
 echo -e "${GREEN}Installation complete${NOCOLOR}"
 echo -e "\033[1K"
