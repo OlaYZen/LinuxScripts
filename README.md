@@ -11,6 +11,7 @@ bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/
 ```
 
 ## Docker:
+This will not work on all docker containers, only the ones that have apt and not apk
 ```
 apt-get update -y && apt install curl -y && bash <(curl -L -s https://raw.githubusercontent.com/OlaYZen/LinuxScripts/master/ubuntuupgrade.sh) install
 ```
