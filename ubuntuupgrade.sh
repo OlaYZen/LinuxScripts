@@ -8,7 +8,6 @@ echo -e "\033[1K"
 echo -e "${WHITE}Sudo is required for the installation${NOCOLOR}"
 sudo su
 echo -e "\033[1K"
-
 clear
 
 echo -e "\033[1K"
