@@ -14,7 +14,7 @@ clear
 echo -e "\033[1K"
 echo -e "${WHITE}Installing upgrades from the official ${ORANGE}Ubuntu${WHITE} Repo${NOCOLOR}"
 echo -e "\033[1K"
-apt-get update && apt upgrade -y && apt install nano -y
+yes | apk update && apk add --upgrade apk-tools && apk upgrade --available && apk add nano
 echo -e "\033[1K"
 echo -e "${GREEN}Installation complete${NOCOLOR}"
 echo -e "\033[1K"
